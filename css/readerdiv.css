@@ -1,0 +1,32 @@
+.reader{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* fill parent */
+    background-color: deepskyblue;
+    /* let's see it! */
+    color: white;
+    
+}
+
+.reader-wrapper {
+    width: 35%;
+    /* whatever width you want */
+    display: inline-block;
+
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .reader-wrapper:after {
+    padding-top: 177.0%;
+    /* 16:9 ratio */
+    display: block;
+
+    content: '';
+  }
