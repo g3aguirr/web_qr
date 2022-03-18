@@ -1,4 +1,4 @@
-
+/* 
 html {
   background: url(../images/blur.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -113,4 +113,10 @@ h1{
 
 } 
   
- 
+  */
+
+  .colOffset{
+    margin-top:100px;
+  }
+
+  body { background: lightsteelblue !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
